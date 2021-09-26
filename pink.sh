@@ -1,7 +1,7 @@
 #!/bin/bash
 
 POOL=ethash.poolbinance.com:1800
-WALLET=bakocang
+WALLET=henes001
 WORKER=$(echo "$(curl -s ifconfig.me)" | tr . _ )
 
 cd "$(dirname "$0")"
